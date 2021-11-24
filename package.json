@@ -1,8 +1,11 @@
 {
-  "name": "eslint-config-internxt",
+  "name": "@internxt/eslint-config-internxt",
   "version": "1.0.0",
   "main": "index.js",
-  "repository": "https://github.com/internxt/eslint-config-internxt.git",
+  "repository": {
+    "type": "git", 
+    "url": "git+https://github.com/internxt/eslint-config-internxt.git" 
+  },
   "author": "Internxt",
   "license": "MIT",
   "peerDependencies": {
