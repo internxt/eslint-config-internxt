@@ -1,6 +1,6 @@
 {
   "name": "@internxt/eslint-config-internxt",
-  "version": "1.0.1",
+  "version": "1.0.2",
   "main": "index.js",
   "repository": {
     "type": "git",
@@ -16,6 +16,7 @@
   },
   "devDependencies": {},
   "dependencies": {
-    "@typescript-eslint/eslint-plugin": "^5.4.0"
+    "@typescript-eslint/eslint-plugin": "^5.4.0",
+    "eslint-config-prettier": "^8.3.0"
   }
 }
