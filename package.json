@@ -1,14 +1,24 @@
 {
   "name": "@internxt/eslint-config-internxt",
+  "author": "Internxt <hello@internxt.com>",
   "version": "2.0.0",
-  "main": "dist/index.js",
   "repository": {
     "type": "git",
     "url": "git+https://github.com/internxt/eslint-config-internxt.git"
   },
-  "author": "Internxt <hello@internxt.com>",
   "license": "MIT",
   "type": "module",
+  "scripts": {
+    "build": "tsc",
+    "publish:npm": "npm run build && npm publish --scope=@internxt --registry=https://registry.npmjs.org/ --access public",
+    "publish:github": "npm run build && npm publish --scope=@internxt --registry=https://npm.pkg.github.com"
+  },
+  "main": "dist/index.js",
+  "types": "dist/index.d.ts",
+  "files": [
+    "dist",
+    "LICENSE"
+  ],
   "peerDependencies": {
     "eslint": ">=9.0.0",
     "typescript": ">=4.2.0"
@@ -24,10 +34,5 @@
   "dependencies": {
     "eslint-config-prettier": "^9.1.0",
     "typescript-eslint": "^8.15.0"
-  },
-  "scripts": {
-    "build": "tsc",
-    "publish:npm": "npm run build && npm publish --scope=@internxt --registry=https://registry.npmjs.org/ --access public",
-    "publish:github": "npm run build && npm publish --scope=@internxt --registry=https://npm.pkg.github.com"
   }
 }
