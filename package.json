@@ -6,7 +6,7 @@
     "type": "git",
     "url": "git+https://github.com/internxt/eslint-config-internxt.git"
   },
-  "author": "Internxt",
+  "author": "Internxt <hello@internxt.com>",
   "license": "MIT",
   "type": "module",
   "peerDependencies": {
