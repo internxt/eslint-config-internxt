@@ -1,9 +1,14 @@
 import tseslint from 'typescript-eslint';
 import js from "@eslint/js";
 import eslintConfigPrettier from 'eslint-config-prettier';
+import { defineConfig } from "eslint/config";
 
-export default tseslint.config(
-    js.configs.recommended,
+export default defineConfig([
+    {
+        files: ["**/*.js"],
+        plugins: { js },
+        extends: ["js/recommended"]
+    },
     tseslint.configs.recommended,
     eslintConfigPrettier,
     {
@@ -23,4 +28,4 @@ export default tseslint.config(
             "no-console": ["warn"],
         },
     },
-);
+]);

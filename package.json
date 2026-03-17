@@ -1,7 +1,7 @@
 {
   "name": "@internxt/eslint-config-internxt",
   "author": "Internxt <hello@internxt.com>",
-  "version": "2.0.1",
+  "version": "2.1.0",
   "repository": {
     "type": "git",
     "url": "git+https://github.com/internxt/eslint-config-internxt.git"
@@ -28,11 +28,12 @@
   },
   "devDependencies": {
     "@types/eslint-config-prettier": "^6.11.3",
-    "eslint": "^9.34.0",
-    "typescript": "^5.9.2"
+    "typescript": "^5.9.3"
   },
   "dependencies": {
+    "@eslint/js": "^10.0.1",
+    "eslint": "^10.0.3",
     "eslint-config-prettier": "^10.1.8",
-    "typescript-eslint": "^8.40.0"
+    "typescript-eslint": "^8.57.1"
   }
 }
