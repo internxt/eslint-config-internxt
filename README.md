@@ -8,7 +8,7 @@ This package provides the recommended ESLint configurations for all Internxt pro
 1. Install eslint-config-internxt as a development dependency:
 
    ```
-   yarn add --dev eslint-config-internxt
+   npm install --save-dev eslint-config-internxt
    ```
 
 2. Add eslint-config-internxt to your ESLint configuration.
