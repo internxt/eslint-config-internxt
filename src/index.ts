@@ -17,7 +17,7 @@ export default defineConfig([
         },
         rules: {
             "quotes": ["error", "single", {
-                "avoidEscape": false,
+                "avoidEscape": true,
             }],
             "semi": ["error", "always"],
             "linebreak-style": ["error", "unix"],
