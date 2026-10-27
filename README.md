@@ -2,7 +2,6 @@
 
 This package provides the recommended ESLint configurations for all Internxt projects.
 
-
 ## Installation
 
 1. Install eslint-config-internxt as a development dependency:
